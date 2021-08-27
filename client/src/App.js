@@ -5,11 +5,19 @@ function App() {
     <div className="App">
       <h1>G'day</h1>
       <h3>Please enter article details below</h3>
+    
+      <div className="InputArticle">
+        
       <label for="ArticleTitle">Article Title </label>
-    <input type="text" name="ArticleTitle" />
-    <br/>
-    <label for="ArticleContent">Article Content </label>
-    <input type="text" name="ArticleContent" />
+      <br/>
+      <input type="text" name="ArticleTitle" />
+      <br/>
+      <label for="ArticleContent">Article Content </label>
+      <br/>
+      <input type="text" name="ArticleContent" />
+      <br/>
+      <button>submit</button>
+      </div>
     </div>
   );
 }

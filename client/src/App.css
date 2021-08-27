@@ -18,6 +18,7 @@ input[name="ArticleTitle"] {
   width: 400px;
   height: 60px;
   margin: 10px;
+  
 }
 input[name="ArticleContent"] {
   width: 400px;
