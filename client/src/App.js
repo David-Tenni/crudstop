@@ -4,7 +4,12 @@ function App() {
   return (
     <div className="App">
       <h1>G'day</h1>
-    <input type="text" name="review" />
+      <h3>Please enter article details below</h3>
+      <label for="ArticleTitle">Article Title </label>
+    <input type="text" name="ArticleTitle" />
+    <br/>
+    <label for="ArticleContent">Article Content </label>
+    <input type="text" name="ArticleContent" />
     </div>
   );
 }
