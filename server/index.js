@@ -8,7 +8,7 @@ res.send("G\'day Mate!");
 });
 
 app.get("/login", (req, res) => {
-    res.send("You cannot login.");
+    res.send("You cannot login. as there is no login page lulor even functionality for that matter");
 });
 
 
