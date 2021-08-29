@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <h1>G'day</h1>
-      <h3>Please enter article details below</h3>
+      <h3>Please enter information</h3>
     
       <div className="InputArticle">
         
