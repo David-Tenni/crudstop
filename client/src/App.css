@@ -14,13 +14,13 @@
   height: 60px;
   margin: 10px;
 }
-input[name="ArticleTitle"] {
+input[name="ObjectTitle"] {
   width: 400px;
   height: 60px;
   margin: 10px;
   
 }
-input[name="ArticleContent"] {
+input[name="ObjectContent"] {
   width: 400px;
   height: 600px;
   margin: 10px;

@@ -6,15 +6,15 @@ function App() {
       <h1>G'day</h1>
       <h3>Please enter information</h3>
     
-      <div className="InputArticle">
+      <div className="InputObject">
         
-      <label for="ArticleTitle">Article Title </label>
+      <label for="ObjectTitle">Object Title </label>
       <br/>
-      <input type="text" name="ArticleTitle" />
+      <input type="text" name="ObjectTitle" />
       <br/>
-      <label for="ArticleContent">Article Content </label>
+      <label for="ObjectContent">Object Content </label>
       <br/>
-      <input type="text" name="ArticleContent" />
+      <input type="text" name="ObjectContent" />
       <br/>
       <button>submit</button>
       </div>
