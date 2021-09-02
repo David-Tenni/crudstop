@@ -11,6 +11,10 @@ app.get("/login", (req, res) => {
     res.send("You cannot login. as there is no login page lulor even functionality for that matter");
 });
 
+app.get("/borat", (req, res) => {
+    res.send("Very Nice");
+});
+
 
 app.listen(3001, () => {
     console.log("running on port 3001");
