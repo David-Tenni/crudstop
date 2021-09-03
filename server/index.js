@@ -17,5 +17,5 @@ app.get("/borat", (req, res) => {
 
 
 app.listen(3001, () => {
-    console.log("running on port 3001");
+    console.log("running on port 3001 or whatever port is configued");
 })
