@@ -19,6 +19,10 @@ app.get("/is", (req, res) => {
     res.send("Nice");
 });
 
+app.get("/stop", (req, res) => {
+    res.send("No");
+});
+
 
 app.listen(3001, () => {
     console.log("running on port 3001 or whatever port is configued");
