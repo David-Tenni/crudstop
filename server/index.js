@@ -23,7 +23,9 @@ app.get("/stop", (req, res) => {
     res.send("No");
 });
 
-
+app.get("/motivation", (req, res) => {
+    res.send("Error 404: not found");
+});
 app.listen(3001, () => {
     console.log("running on port 3001 or whatever port is configued");
 })
